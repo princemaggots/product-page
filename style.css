@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
 
+html{
+    width:100vw;
+    height:100vh;
+    margin:0;
+}
+
 body {
   background: linear-gradient(to right, #4086cc, 43%, #b0f9bb);
   font-size: 15px;
@@ -107,12 +113,12 @@ nav ul {
   padding: 2px 5px 15px 5px;
 }
 
-#email,input {
+#email, input {
   width: 75%;
   border-radius: 3px;
   border: 1.5px solid hsla(170,60%,50%, 0.2);
   padding: 5px;
-  margin: 0 0 15px 0;
+  margin: 5px 0 15px 0;
 }
 
 .btn { 
@@ -154,6 +160,7 @@ nav ul {
 
 label {
   font-weight: 600;
+  margin: 3px;
 }
 
 #faq {
